@@ -6,14 +6,14 @@ body{
     background-size: cover;
     color: white;
     filter: invert(0%);
-    background-size: auto 1000px;
+    /* background-size: auto 1000px; */
 }
 
 
 
 
 .title h1 {  
-    font-size: 4.7rem;  
+    font-size: 2.5rem;  
     color:yellow;  
     position: relative;
 
@@ -68,7 +68,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     background-color: rgba(15, 7, 7, 0.8);
-    height:20vh;
+    height:15vh;
     color:black;
     font-size: 18px;
     
@@ -95,9 +95,7 @@ nav .logo{
 
     
 }
-h1{
 
-}
 nav  .logo img{
     width: 85px;
     justify-content: center;}
@@ -130,11 +128,11 @@ nav  .logo img{
         background-color:rgba(29, 8, 8, 0.3);
         width: 400px;
         margin: 150px  100px;
-        height: 500px;
+        height: max-content;
         border: black;
         border-width: 2px;
         border-radius: 4px;
-        box-shadow:15px 15px  10px black ;
+        box-shadow:5px 5px  10px black ;
 
     }
     .item h1 {
@@ -143,7 +141,7 @@ nav  .logo img{
 
     }
     .item p{
-        font size: 25px;
+        font-size: 20px;
     }
     html{
         scroll-behavior: smooth;
@@ -152,3 +150,8 @@ nav  .logo img{
 #item-2{order:1;}
 #item-3{order:2;}
 #item-4{order:4;}
+
+.content-text{
+    padding:0 20px;
+    text-align: justify;
+}
